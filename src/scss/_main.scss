@@ -1,0 +1,52 @@
+$bg-primary: #06AED5;
+$bg-neutral: #F2F4F3;
+$bg-text: #111111;
+
+body {
+  font-family: "Chivo", sans-serif;
+  background-color: $bg-neutral;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  section {
+    min-height: 100vh;
+  }
+}
+
+footer.footer {
+  background-color: $bg-primary;
+  padding: 1.4rem;
+}
+
+.footer-column {
+  text-align: center;
+  padding: 1rem;
+  .nav-item {
+    .nav-link {
+      padding: 0.1rem 0;
+    }
+    a.nav-link {
+      color: $bg-neutral;
+    }
+    a.nav-link:hover {
+      color: $bg-text;
+    }
+    span.footer-title {
+      font-size: 1rem;
+      color: $bg-text;
+      text-transform: uppercase;
+    }
+  }
+  ul {
+    display: inline-block;
+    @media (min-width: 768px) {
+      text-align: left;
+    }
+  }
+}
+
+span {
+  color: $bg-neutral;
+}

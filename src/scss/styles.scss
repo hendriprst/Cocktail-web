@@ -1,0 +1,22 @@
+/*!
+* Bootstrap v5.2.0 (https://getbootstrap.com/)
+* Copyright 2011-2019 The Bootstrap Authors
+* Copyright 2011-2019 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;500;600;700;900&display=swap');
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/utilities";
+@import "main";
+@import "loader";
